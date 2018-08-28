@@ -5,3 +5,5 @@ if a == 'wangzhen'  :
     b = input('继续输入一串字符')
     if b=='love' :
         print('恭喜再次输入正确')
+else :
+    print('输入错误')

@@ -20,7 +20,7 @@ def hannuota(n, i,a, b, c) :
         #第三部从b移动c
         print(a + '2->' + b)
         print(a + '2->' + c)
-        print(b + '2->' + c)
+        print(b + '2->' + c)    
         return None;
     '''
     #盘子大于2个的时候
@@ -30,7 +30,7 @@ def hannuota(n, i,a, b, c) :
     print('i1:%s, n1:%s' %(str(i), n))
     print(a + '1->' + c)
     #第三步把b上的n-1个盘子借助a移动到c     
-    hannuota(n-1, i, b, a, c)
+    hannuota(n-1, i, b, a, c)a
 n = 3
 i = 0
 hannuota(n, i, 'A', 'B', 'C')
