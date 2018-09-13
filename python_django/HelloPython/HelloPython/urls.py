@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include,re_path
-
+from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path(r'HelloPython2/', include('HelloPython2.urls',))
-    re_path(r'^HelloPython2/',include(('HelloPython2.urls', 'common'), namespace='python2'))
+    re_path(r'^HelloPython2/',include(('HelloPython2.urls', 'common'), namespace='python2')),
+    path(r'index/forpost', views.post_for)
 ]

@@ -1,7 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render,render_to_response,reverse
 from django.http import HttpResponse,Http404
-from django.urls import reverse
-
+from django.template import loader
 
 def index(request) :
     name = request.GET.get('name')
@@ -23,3 +22,16 @@ def page(requset, pg) :
 def exception(request) :
     raise Http404
     return HttpResponse('exception')
+def request_item(request) :
+    request_dict = {}
+    for k, v in request.GET.items() :
+        request_dict[k] = v
+    return HttpResponse(str(request_dict))
+def for_post(request) :
+    return render_to_response('forpost.html')
+def forrender(request) :
+    c = dict();
+    c['name'] = str(reverse('python2:forrender'))
+    c['age'] = 18
+    re = render(request,'render.html', context = c)
+    return re;

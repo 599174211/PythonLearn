@@ -16,11 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,re_path
 from . import views
-app_name = 'common'
 urlpatterns = [
     path(r'index/', views.index, name='index'),
+    path(r'index/request',views.request_item, name = 'requet.item'),
+    path(r'index/forpost', views.for_post, name ='for_post'),
     path(r'index/<int:number>', views.index2, name='index2'),
     re_path(r'^index/(?:page-(?P<pg>\d+))',views.page, name='page'),
     path(r'index/aaa', views.index3, name='index3'),
-    path(r'index/exception', views.exception, name='exception')
+    path(r'index/exception', views.exception, name='exception'),
+    path(r'index/render', views.forrender, name = 'forrender')
 ]
