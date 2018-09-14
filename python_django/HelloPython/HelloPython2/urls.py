@@ -24,5 +24,8 @@ urlpatterns = [
     re_path(r'^index/(?:page-(?P<pg>\d+))',views.page, name='page'),
     path(r'index/aaa', views.index3, name='index3'),
     path(r'index/exception', views.exception, name='exception'),
-    path(r'index/render', views.forrender, name = 'forrender')
+    path(r'index/render', views.forrender, name = 'forrender'),
+    path(r'index/render1', views.forrender1, name = 'forrender1'),
+    path(r'index/render2', views.forrender2, name = 'forrender2'),
+    path(r'index/for404', views.for404, name='for404'),
 ]

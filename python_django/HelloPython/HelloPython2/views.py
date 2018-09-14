@@ -1,6 +1,7 @@
 from django.shortcuts import render,render_to_response,reverse
 from django.http import HttpResponse,Http404
 from django.template import loader
+from django.views import defaults
 
 def index(request) :
     name = request.GET.get('name')
@@ -35,3 +36,14 @@ def forrender(request) :
     c['age'] = 18
     re = render(request,'render.html', context = c)
     return re;
+def forrender1(reques) :
+    #得到一个模块
+    t = loader.get_template('render.html')
+    re = t.render({'name' : 'python', 'age' : 20})
+    return HttpResponse(re)
+def forrender2(request) :
+    re = render_to_response('render.html', context={'name' : 'python', 'age' : 21})
+    return HttpResponse(re)
+
+def for404(request) :
+    return defaults.page_not_found(request, Exception.args, template_name='http404.html')
