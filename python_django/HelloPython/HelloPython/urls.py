@@ -16,9 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include,re_path
 from . import views
+from  django.conf import settings
+from django.conf.urls.static import serve,static
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path(r'HelloPython2/', include('HelloPython2.urls',))
     re_path(r'^HelloPython2/',include(('HelloPython2.urls', 'common'), namespace='python2')),
-    path(r'index/forpost', views.post_for)
+    path(r'index/forpost', views.post_for),
+    re_path(r'^static/(?P<path>.*)$', serve, {'document_root':STATIC_ROOT})
 ]
