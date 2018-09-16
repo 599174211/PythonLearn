@@ -1,213 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e01d43de-e084-4564-9b06-f3ff1514c716" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BookManage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManage/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManage/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManage/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManage/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManage/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManage/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManage/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookManage/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/book/css/book.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/content_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book/inset_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/extends_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/school.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HelloPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HelloPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloPython/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloPython/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloPython/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloPython/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloPython2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloPython2/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloPython2/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloPython2/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/responsive_rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-viewlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/timeparse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/collectstatic/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/aa/http404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/http404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_distutils_findvs.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/concrt140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/msvcp140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/ucrtbase.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/vccorlib140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/vcomp140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/xlwings32-0.11.8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/xlwings64-0.11.8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
-    </list>
+    <list default="true" id="e01d43de-e084-4564-9b06-f3ff1514c716" name="Default Changelist" comment="练习" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -423,11 +217,6 @@
             <path>
               <item name="HelloPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloPython" type="462c0819:PsiDirectoryNode" />
-              <item name="BookManage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloPython" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -631,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536821246710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="练习">
+      <created>1537101392609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537101392609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -651,9 +447,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.3262987" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" weight="0.3262987" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.33116883" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49546143" weight="0.33441558" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49760765" visible="true" weight="0.27987897" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" weight="0.33116883" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49546143" visible="true" weight="0.33441558" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49760765" visible="true" weight="0.27987897" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
@@ -678,7 +474,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018_0914_提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018_0914_提交" />
+    <MESSAGE value="练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
