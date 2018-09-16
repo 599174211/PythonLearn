@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+
+</head>
+
+<body>
+        <img src="{% static 'img.jpg' %}">
+    <ul>
+        <li><a href="{% url 'python2:base' %}">首页</a></li>
+        <li><a href="{%  url 'python2:company'%}">公司</a></li>
+        <li><a href="{% url 'python2:school'%}">校园</a></li>
+        {% if name %}
+                    <li><a href="{% url 'python2:index' %}">{{ name }}</a></li>
+        {% endif %}
+    </ul>
+    <div>
+    {% block content %}
+        <h1>这是base的content block</h1>
+    {% endblock %}
+    </div>
+</body>
+</html>

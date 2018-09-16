@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static  'book\css\book.css'%}">
+</head>
+<body>
+
+        <nav >
+            <ul class="nav">
+                <li><a href="{% url 'book:index' %}">首页</a> </li>
+                <li><a href="{% url 'book:book_add'%}">发布图书</a> </li>
+            </ul>
+        </nav>
+<dvi class="content">
+    {% block content %}
+        这是父类的block
+    {% endblock %}
+</dvi>
+</body>
+</html>

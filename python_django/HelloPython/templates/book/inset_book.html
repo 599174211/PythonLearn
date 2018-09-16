@@ -1,0 +1,22 @@
+{% extends 'book/base.html' %}
+{% block content %}
+    <form action="" method = "post">
+        <table>
+            <tbody>
+                <tr>
+                    <td>书名</td>
+                    <td><input type="text" name="book_name"></td>
+                </tr>
+                <tr>
+                    <td>作者</td>
+                    <td><input type="text" name="book_author"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="提交" ></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+{% endblock %}

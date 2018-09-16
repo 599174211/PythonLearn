@@ -2573,7 +2573,7 @@ S2.define('select2/diacritics',[
     '\u0105': 'a',
     '\u2C65': 'a',
     '\u0250': 'a',
-    '\uA733': 'aa',
+    '\uA733': 'book',
     '\u00E6': 'ae',
     '\u01FD': 'ae',
     '\u01E3': 'ae',

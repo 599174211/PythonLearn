@@ -1,0 +1,16 @@
+{% extends 'book\base.html' %}
+{% load static %}
+{% block content %}
+<p>书名:{{ book.1 }}</p>
+<p>作者:{{ book.2 }}</p>
+    <form action="{% url 'book:book_delete' %}" method="post">
+        <input type="hidden" name="book_id" value="{{ book.0 }}">
+        <input type="submit" value="删除图书">
+    </form>
+    <form action="{% url 'book:bookupdate'%}" method="post">
+        <input type="hidden" name="book_id" value="{{ book.0 }}">
+        <input type="text" name="book_name" >
+        <input type="text" name="book_authon" >
+        <input type="submit" value="修改图书">
+    </form>
+{% endblock %}

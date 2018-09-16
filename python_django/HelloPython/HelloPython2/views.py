@@ -1,9 +1,17 @@
 from django.shortcuts import render,render_to_response,reverse
-from django.http import HttpResponse,Http404
+from django.http import HttpResponse,Http404,HttpResponseNotFound
 from django.template import loader
 from django.views import defaults
+from datetime import datetime
 
 def index(request) :
+    dict_index = {
+        'name' : ['python', 'java'],
+        'datetime': datetime.now()
+    }
+    re = render(request, 'index.html', dict_index)
+    return re
+def index1(request) :
     name = request.GET.get('name')
     if name :
         request_methon = request.method;
@@ -47,3 +55,15 @@ def forrender2(request) :
 
 def for404(request) :
     return defaults.page_not_found(request, Exception.args, template_name='http404.html')
+
+def extends_1(request) :
+    return render(request, 'extends_1.html')
+def base(request) :
+    dic_url = {'company': reverse('python2:company')
+               ,'school': reverse('python2:school')}
+    return render(request, 'base.html',context= dic_url)
+def company(request) :
+    condext = {'name': 'hello'}
+    return render(request, 'company.html',context= condext)
+def school(request) :
+    return render(request, 'school.html')

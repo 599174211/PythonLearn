@@ -19,12 +19,11 @@ from . import views
 from django.conf import settings
 from django.conf.urls.static import serve,static
 import os
-
+app_name ='bookmanage'
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    # path(r'HelloPython2/', include('HelloPython2.urls',))
-    # re_path(r'^HelloPython2/',include(('HelloPython2.urls', 'common'), namespace='python2')),
-    re_path(r'BookManage/',include(('BookManage.urls','bookmanage'), namespace = 'book')),
-    path(r'index/forpost', views.post_for),
-    re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
+    path(r'',views.bookeIndex, name = 'index'),
+    re_path(r'add/',views.bookAdd, name = 'book_add'),
+    re_path(r'content/(?P<book_id>\d+)',views.bookContent, name = 'book_content'),
+    path(r'bookdelete',views.bookDelete, name = 'book_delete'),
+    path(r'bookupdate',views.bookUpdate, name = 'bookupdate'),
     ]
