@@ -22,8 +22,9 @@ import os
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path(r'HelloPython2/', include('HelloPython2.urls',))
-    # re_path(r'^HelloPython2/',include(('HelloPython2.urls', 'common'), namespace='python2')),
+
+    # path(r'HelloPython2/', include('HelloPython2.urls',)),
+    re_path(r'^HelloPython2/',include(('HelloPython2.urls', 'common'), namespace='python2')),
     re_path(r'BookManage/',include(('BookManage.urls','bookmanage'), namespace = 'book')),
     path(r'index/forpost', views.post_for),
     re_path(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
