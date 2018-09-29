@@ -6,7 +6,7 @@ var concat = require("gulp-concat");
 var cache = require('gulp-cache');
 var imagemin = require('gulp-imagemin');
 var bs = require('browser-sync').create();
-// var sass = require("gulp-sass");
+var sass = require("gulp-sass");
 // gulp-util：这个插件中有一个方法log，可以打印出当前js错误的信息
 var util = require("gulp-util");
 var sourcemaps = require("gulp-sourcemaps");
@@ -30,8 +30,8 @@ gulp.task("html",function () {
 
 // 定义一个css的任务
 gulp.task("css",function () {
-    gulp.src(path.css + '*.css')
-        // .pipe(sass().on("error",sass.logError))
+    gulp.src(path.css + '*.scss')
+        .pipe(sass().on("error",sass.logError))
         .pipe(cssnano())
         .pipe(rename({"suffix":".min"}))
         .pipe(gulp.dest(path.css_dist))
@@ -60,7 +60,7 @@ gulp.task('images',function () {
 // 定义监听文件修改的任务
 gulp.task("watch",function () {
     gulp.watch(path.html + '*.html',['html']);
-    gulp.watch(path.css + '*.css',['css']);
+    gulp.watch(path.css + '*.scss',['css']);
     gulp.watch(path.js + '*.js',['js']);
     gulp.watch(path.images + '*.*',['images']);
 });
