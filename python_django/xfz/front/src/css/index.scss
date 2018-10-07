@@ -151,12 +151,6 @@ body{
                 }
             }
         }
-        .sidebar-wrapper{
-            float: right;
-            width: $sidebarWidth;
-            height: 500px;
-            background: red;
-        }
     }
 }
 
@@ -247,6 +241,44 @@ body{
                         }
                     }
                 }
+            .load-more-group{
+                padding: 0 20px;
+                text-align: center;
+                .load-more{
+                    height: 40px;
+                    width: 402px;
+                    background: #d2dcea;
+                    color: #6d85ac;
+                    outline: none;
+                    cursor:pointer;
+                }
+            }
+        }
+    }
+}
+
+.main{
+    .sidebar-wrapper{
+        float: right;
+        width: $sidebarWidth;
+        height: 500px;
+        background: white;
+        .title-group{
+            padding: 20px;
+            overflow: hidden;
+            .title{
+                float: left;
+                font-size: 18px;
+                color: #212121;
+            }
+            .more{
+                float: right;
+                font-size: 14px;
+                color: $themeColor;
+            }
+        }
+        .advertise-group{
+
         }
     }
 }
