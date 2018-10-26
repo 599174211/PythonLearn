@@ -71,6 +71,7 @@ gulp.task("bs",function () {
         'server': {
             'baseDir': './'
         },
+        //局域网ip访问
         open:"external"
     })
 });

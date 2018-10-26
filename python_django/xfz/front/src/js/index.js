@@ -157,11 +157,10 @@ Banner.prototype.run = function () {
     this.listenArrowClick();
     this.initPageControl();
     this.initBanner();
-    this.listenPageControl();
-};
-
-
 $(function () {
    var banner = new Banner();
    banner.run();
 });
+    this.listenPageControl();
+};
+
