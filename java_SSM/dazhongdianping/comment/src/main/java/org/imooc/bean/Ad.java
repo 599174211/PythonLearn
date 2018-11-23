@@ -50,4 +50,5 @@ public class Ad {
     public void setWeight(Integer weight) {
         this.weight = weight;
     }
+
 }

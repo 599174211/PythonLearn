@@ -8,6 +8,10 @@
     <result column="link" jdbcType="VARCHAR" property="link" />
     <result column="weight" jdbcType="INTEGER" property="weight" />
   </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ad
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
   <insert id="insert" parameterType="org.imooc.bean.Ad">
     insert into ad (id, title, img_file_name, 
       link, weight)
@@ -31,10 +35,4 @@
     select id, title, img_file_name, link, weight
     from ad
   </select>
-
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from ad
-    where id = #{id,jdbcType=INTEGER}
-  </delete>
-
 </mapper>

@@ -24,7 +24,6 @@ public class AdServiceImpl implements AdService {
 	private String user;
 	@Value("${jdbc.password}")
 	private String password;
-	
 	@Override
 	public boolean add(AdDto adDto) {
 		// TODO Auto-generated method stub
@@ -46,7 +45,7 @@ public class AdServiceImpl implements AdService {
 				ad.setImgFileName(fileName);
 				adDao.insert(ad)		;
 				return true;
-			} catch (IllegalStateException | IOException e) {
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				return false;

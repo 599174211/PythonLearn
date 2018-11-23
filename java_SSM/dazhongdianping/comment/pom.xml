@@ -3,11 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.imooc</groupId>
 	<artifactId>comment</artifactId>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>comment Maven Webapp</name>
+   
+    <name>comment Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<properties>
 		<!-- spring版本号 -->
 		<spring.version>4.2.3.RELEASE</spring.version>
@@ -190,6 +191,21 @@
 	<build>
 		<finalName>comment</finalName>
 		<defaultGoal>compile</defaultGoal>
+		<!-- 
+		<resources> <resource> <directory>src/main/java</directory>
+			<includes>
+				<include>**/*.properties</include>
+				<include>**/*.xml</include>
+			</includes> <filtering>false</filtering>
+		</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include> </includes>
+				<filtering>false</filtering>
+			</resource> </resources>
+ 			-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -198,6 +214,8 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+					<encoding>UTF-8</encoding>
+					<compilerArguments>${basedir}/src/main/webapp/WEB-INF/lib</compilerArguments>
                 </configuration>
             </plugin>
             

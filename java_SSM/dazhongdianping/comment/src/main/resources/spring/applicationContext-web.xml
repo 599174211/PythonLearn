@@ -7,27 +7,34 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
 	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
-	
-	<!-- 开启注解映射的支持 -->
+	<!-- 自动扫描的包名 -->
+	<context:component-scan base-package="org.imooc.controller.*"/>
+	<context:component-scan base-package="org.imooc.controller"/>
+	<!-- 允许对静态资源文件的访问 -->
+	<mvc:default-servlet-handler/>
+	<mvc:resources mapping="/css/**" location="/css/"/>
+	<mvc:resources mapping="/images/**" location="/images/"/>
+	<mvc:resources mapping="/js/**" location="/js/"/>
+	<!-- 开启注解映射的支持-->
 	<mvc:annotation-driven>
 		<mvc:message-converters>
-			<bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+			<bean  class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"
+			/>
 		</mvc:message-converters>
 	</mvc:annotation-driven>
+
+
 	
-	<!-- 允许对静态资源文件的访问 --> 
-	<mvc:default-servlet-handler/>
-	
-	<!--避免IE执行AJAX时，返回JSON出现下载文件 -->
+	<!--避免IE执行AJAX时，返回JSON出现下载文件-->
 	<bean id="mappingJacksonHttpMessageConverter"
-		class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+		class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"
+		>
 		<property name="supportedMediaTypes">
 			<list>
 				<value>text/html;charset=UTF-8</value>
 			</list>
 		</property>
 	</bean>
-	
 	<!-- 自定义拦截器
 	<mvc:interceptors>
 		<mvc:interceptor>
@@ -44,13 +51,13 @@
 			<bean class="org.imooc.controller.interceptor.SessionInterceptor"></bean>
 		</mvc:interceptor>
 	</mvc:interceptors> -->
-	
 	<!-- 配置视图解析器 -->  
-	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<bean id="viewResolver"  class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
 		<property name="prefix" value="/WEB-INF/jsp"/>
 		<property name="suffix" value=".jsp"></property>
 	</bean>
+
 	
 	<!-- 配置文件上传解析器 -->
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"> 
@@ -58,8 +65,7 @@
          <property name="maxUploadSize" value="20000000"/>
          <property name="defaultEncoding" value="utf-8"></property>
     </bean>
-	<!-- 自动扫描的包名 -->
-	<context:component-scan base-package="org.imooc.controller"/>
-	
+
+
 	
 </beans>

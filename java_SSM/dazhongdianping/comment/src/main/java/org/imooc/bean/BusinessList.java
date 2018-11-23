@@ -13,7 +13,7 @@ public class BusinessList {
 	private List<Business> data;
 	
 	public BusinessList() {
-	    this.data = new ArrayList<>();
+	    this.data = new ArrayList<Business>();
 	}
 
 	public boolean getHasMore() {
