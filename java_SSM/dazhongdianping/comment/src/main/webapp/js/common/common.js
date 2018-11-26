@@ -7,7 +7,8 @@ common.showMessage = function(msg) {
 	if(msg) {
 		alert(msg);
 	}
-}
+};
+
 
 /**
  * 对jQuery的ajax方法的二次封装

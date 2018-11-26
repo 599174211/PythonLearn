@@ -14,5 +14,6 @@ function check() {
 }
 
 function goback() {
+	//TODO 需要添加表单的验证
 	location.href = $('#basePath').val() + '/ad';
 }
