@@ -39,7 +39,7 @@ public class AdServiceImpl implements AdService {
 				ad.setImgFileName(fileName);
 				adDao.insert(ad)		;
 				return true;
-			} catch (IllegalStateException) {
+			} catch (IllegalStateException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				return false;
