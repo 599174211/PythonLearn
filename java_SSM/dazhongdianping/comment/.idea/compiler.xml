@@ -9,8 +9,5 @@
         <module name="comment" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demoId" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

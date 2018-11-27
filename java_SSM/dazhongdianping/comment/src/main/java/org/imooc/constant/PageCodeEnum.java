@@ -1,7 +1,7 @@
 package org.imooc.constant;
 
-public class PageCodeEnum {
-    ADD_SUCCESS(1000, "新增成功!");
+public enum  PageCodeEnum {
+    ADD_SUCCESS(1000, "新增成功!"),
     ADD_FAIL(1001, "新增失败!");
     private Integer code;
     private String msg;
